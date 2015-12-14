@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+p {
+  color: #4E2245;
+  font-size: 16px;
+  line-height: 26px;
+}
+h1,
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #4E2245;
+}
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #f0c9c6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e7e5ec), to(#f0c9c6));
+  background-image: -webkit-linear-gradient(left, #e7e5ec, #f0c9c6);
+  background-image: -moz-linear-gradient(left, #e7e5ec, #f0c9c6);
+  background-image: -ms-linear-gradient(left, #e7e5ec, #f0c9c6);
+  background-image: -o-linear-gradient(left, #e7e5ec, #f0c9c6);
+}
+header .logo {
+  margin-top: 20px;
+}
+header .strapline {
+  font-size: 19px;
+  line-height: 30px;
+  padding: 32px 0 0 0;
+}
+.nav-global {
+  background: #8a4681;
+  border: none;
+  border-radius: 0;
+}
+.nav-global .navbar-nav li a {
+  color: white;
+  background: none;
+}
+.nav-global .navbar-nav li a:hover {
+  color: #ccc8d6;
+}
+.nav-global .navbar-nav li.active a {
+  color: #ccc8d6;
+}
+.global-footer {
+  margin-top: 50px;
+  width: 100%;
+  background: #d4d0dd;
+  padding: 10px 0 30px;
+}
+.global-footer h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.global-footer p {
+  font-size: 12px;
+}
+.global-footer .contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.global-footer .contact li {
+  margin-bottom: 5px;
+}
+.global-footer .contact .glyphicon {
+  padding-right: 5px;
+}
+.quote {
+  border-left: 4px solid #b9b2c8;
+}
+.nav-local li.nav-header a {
+  border-bottom: 1px solid #d3d3d2;
+  line-height: 20px;
+  text-transform: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+.nav-local li.active a {
+  color: #22211f;
+}
+.nav-local li a {
+  color: #555;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: normal;
+  text-shadow: none;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+html,
+body {
+  background: #ffffff;
+}
